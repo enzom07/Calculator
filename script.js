@@ -28,9 +28,7 @@ function operate(a,oper,b){
   
   else if(oper === "/")
     return(divide(a,b));
-  
-  else if(oper === "%")
-    return(modul(a,b));
+
 
 }
 
@@ -48,11 +46,14 @@ btn_per.addEventListener('click', () => {
 
   if(Number(value) % 1 != 0){
 
-    Number(value) = Number(value.toFixed(2));
+    value = (Number(value).toFixed(2)).toString();
+    screen.textContent = value;
   }
+  
   else{
 
-    value = value / 100;
+    value = (Number(value)/100).toString();
+    screen.textContent = value;
   }
    
 

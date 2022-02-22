@@ -98,6 +98,18 @@ button.grid-item:active {
     background-color: rgba(255, 166, 0, 0.897);
 }
 
+#equal{
+
+    background-color: rgb(247, 213, 59);
+
+}
+
+#clear{
+
+    background-color: rgb(190, 6, 6);
+
+}
+
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -133,7 +145,8 @@ button.grid-item:active {
 
     color: #303030;
     cursor: pointer;
-    font: bold 20px/65px 'Orbitron';
+    font: bold 40px/35px 'Orbitron';
+    text-align: right;
     text-shadow: 0 1px 1px hsla(0,0%,100%,.25),
     0 -1px 1px hsla(0,0%,0%,.75);
 
